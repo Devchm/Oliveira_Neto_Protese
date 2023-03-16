@@ -1,0 +1,45 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+  font-size: 3rem;
+}
+
+.navigation {
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+
+  height: 300px;
+  width: 100vw;
+}
+
+.navigation div {
+  background-color: green;
+  height: min-content;
+  width: auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  justify-content: space-evenly;
+}
+
+.navigation div a {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/*
+// justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+//flex-direction:
+*/
