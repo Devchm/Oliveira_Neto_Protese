@@ -15,7 +15,9 @@ body {
 a {
   text-decoration: none;
 }
-
+ul {
+  list-style: none;
+}
 /*----------Navegation----------*/
 .navigation {
   background-color: red;
@@ -47,23 +49,38 @@ a {
 }
 
 /*------------Serviços-------------*/
-
-#serviços  {
-  font-size: 4rem;
-  text-align: center;
-  
+#inicio p {
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
+  text-indent: 2rem; /*paragrafo*/
+  text-align: justify;
 }
- 
-#serviços  ul {
-  
+
+/*------------Serviços-------------*/
+
+#serviços {
+  text-align: center;
+}
+
+#serviços ul {
   display: flex;
   flex-direction: column;
-  
-  
+  margin: auto;
+
+  font-size: 3rem;
+
+  padding: 1rem;
+  height: fit-content;
+  width: fit-content;
+
+  margin-bottom: 3rem;
 }
 
+#serviços ul li {
+  display: flex;
 
-
+  background-color: aqua;
+}
 
 /*
 // justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
