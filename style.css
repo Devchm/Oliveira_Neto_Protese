@@ -48,9 +48,9 @@ ul {
   margin-right: 2rem;
 }
 
-/*------------Serviços-------------*/
-#inicio p {
-  font-size: 1.2rem;
+/*------------Inicio-------------*/
+#initial p {
+  font-size: 1.6rem;
   margin-left: 1.2rem;
   text-indent: 2rem; /*paragrafo*/
   text-align: justify;
@@ -58,11 +58,11 @@ ul {
 
 /*------------Serviços-------------*/
 
-#serviços {
+#services {
   text-align: center;
 }
 
-#serviços ul {
+#services ul {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -76,10 +76,60 @@ ul {
   margin-bottom: 3rem;
 }
 
-#serviços ul li {
+#services ul li {
   display: flex;
 
   background-color: aqua;
+}
+
+/*-------------Empresa------------*/
+#company {
+  margin: 3rem;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+}
+
+#company p {
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
+  text-indent: 2rem; /*paragrafo*/
+  text-align: justify;
+  padding: 1rem;
+}
+
+#company h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+/*-------------Contato------------*/
+#contact {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact a {
+  font-size: 1.4rem;
+}
+
+/*-------------Footer-------------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*-------------Button-------------*/
+
+.button {
+  background-color: rgb(176, 166, 60);
+
+  border-radius: 10rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 /*
