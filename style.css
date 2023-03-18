@@ -8,7 +8,7 @@
 /*-----------Body---------------*/
 
 body {
-  background-color: blue;
+  background-color: rgb(96, 82, 98);
   font-size: 3rem;
 }
 
@@ -84,15 +84,16 @@ ul {
 
 /*-------------Empresa------------*/
 #company {
-  margin: 3rem;
-  background-color: blanchedalmond;
+  margin: 3rem 0;
+  background-color: rgb(216, 150, 51);
   display: flex;
   justify-content: space-between;
+ 
 }
 
 #company p {
   font-size: 1.2rem;
-  margin-left: 1.2rem;
+  margin: 2rem 3rem;
   text-indent: 2rem; /*paragrafo*/
   text-align: justify;
   padding: 1rem;
@@ -117,21 +118,27 @@ ul {
 /*-------------Footer-------------*/
 
 footer {
-  margin: 4rem;
+  margin: 4rem 0;
   font-size: 3.4rem;
   display: flex;
+  padding: 5rem;
 
   align-items: center;
 
   justify-content: space-evenly;
+
+  background-color: rgb(216, 150, 51);
 }
 
 /*-------------Button-------------*/
+.buttonn {
+  text-align: end;
+}
 
 div .button {
   margin: 2rem;
 
-  background-color: rgb(176, 166, 60);
+  background-color: rgb(153, 147, 81);
 
   border-radius: 10rem;
   height: 5rem;
