@@ -20,7 +20,7 @@ ul {
 }
 /*----------Navegation----------*/
 .navigation {
-  background-color: red;
+  background-color: rgb(216, 150, 51);
 
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@ ul {
 }
 
 .navigation div {
-  background-color: green;
+  background-color: rgb(216, 150, 51);
   height: min-content;
   width: auto;
 
@@ -79,7 +79,7 @@ ul {
 #services ul li {
   display: flex;
 
-  background-color: aqua;
+  background-color: rgb(216, 150, 51);
 }
 
 /*-------------Empresa------------*/
